@@ -1,0 +1,34 @@
+# Raw or restricted datasets
+data/raw/*
+!data/raw/README.md
+
+# Private evaluation data
+review/private/
+participants/
+
+# Trained files created locally
+*.pkl
+
+# Environment variables and secrets
+.env
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and operating system
+.vscode/settings.json
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
