@@ -13,7 +13,7 @@
 - **RQ2 — Dataset quality:** Are the educator-focused scenarios correct, realistic, appropriate and safe, per two independent reviewers (agreement, Cohen's kappa, four quality scores)?
 - **RQ3 — Platform design:** How can phishing analysis, scenario-based learning and AI-scam awareness be integrated into one bilingual educator platform?
 - **RQ4 — Preliminary usability:** How usable and relevant is the prototype (task completion, usability questionnaire, clarity, interface issues, qualitative feedback)?
-- **RQ5 (optional) — Learning improvement:** Only with ethics approval + informed consent + pre/post-test + approved recruitment.
+- **RQ5 — Learning improvement:** Only with ethics approval + informed consent + pre/post-test + approved recruitment.
 
 ---
 
@@ -118,5 +118,3 @@ Methodology → Dataset Development → System Architecture → Evaluation Metho
 
 ## Required platform disclaimer (cite in paper + app)
 > EduScamSense is an educational and awareness-support platform. Its classifications, scores, and recommendations may be incorrect and should not replace independent verification, institutional cybersecurity procedures, or professional security advice. The voice-cloning and deepfake components provide awareness training only and do not technically detect manipulated audio or video.
-
-**Wording rule:** use "AI-enabled scams," never "AI-powered scam-detection system." Confidence output must read *"The model estimates that this message may be phishing. Verify the sender and request independently before taking action."* — never *"This message is definitely phishing."*
