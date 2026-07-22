@@ -1,0 +1,5 @@
+﻿id,original_text,clean_text,language,label,threat_type,source,source_dataset,source_record_id,adapted,ai_assisted,template_family_id,split
+C0001,Your university payroll account has been suspended. Verify within 24h: hxxps://example[.]invalid/login,your university payroll account has been suspended. verify within 24h: hxxps://example[.]invalid/login,en,phishing,phishing,adapted,UCI-SMS-Spam,uci_1043,yes,no,TF001,train
+C0002,আপনার স্কুল বেতন অ্যাকাউন্ট স্থগিত করা হয়েছে। ২৪ ঘণ্টার মধ্যে যাচাই করুন: hxxps://example[.]invalid/login,আপনার স্কুল বেতন অ্যাকাউন্ট স্থগিত করা হয়েছে। ২৪ ঘণ্টার মধ্যে যাচাই করুন: hxxps://example[.]invalid/login,bn,phishing,phishing,adapted,BanglaBarta,bb_direct_of_TF001,yes,no,TF001,train
+C0003,Reminder: staff meeting tomorrow at 10:00 AM in the conference room.,reminder: staff meeting tomorrow at 10:00 am in the conference room.,en,legitimate,none,synthetic,,,no,yes,TF002,train
+C0004,আগামীকাল সকাল ১০টায় সম্মেলন কক্ষে স্টাফ মিটিং অনুষ্ঠিত হবে।,আগামীকাল সকাল ১০টায় সম্মেলন কক্ষে স্টাফ মিটিং অনুষ্ঠিত হবে।,bn,legitimate,none,synthetic,,,no,yes,TF002,val
